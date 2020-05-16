@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Binder">
+      <UniqueIdentifier>{26a84417-87e5-41a2-ade1-d3ccdc920424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\State">
+      <UniqueIdentifier>{3b8b0c8f-0e49-4726-8267-2dfcb0d43855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Scroll">
+      <UniqueIdentifier>{5bc1ad23-6cae-4522-816a-cec17d778032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Model">
+      <UniqueIdentifier>{fb6f4095-d506-4bd8-b912-68c5f5ffa324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Binder">
+      <UniqueIdentifier>{b365cae4-75c2-4d87-a574-bbadc83ff2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Scroll">
+      <UniqueIdentifier>{ae7444f0-ba11-487b-b6e1-3161a45fac71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\State">
+      <UniqueIdentifier>{dced5993-96b8-4441-a88c-dfbf2bfe8f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Model">
+      <UniqueIdentifier>{e73d1df9-f4db-47f3-84fe-65fcf90769fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Data">
+      <UniqueIdentifier>{f2aabfd5-c983-4245-9eae-8e4669b92bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Presenter">
+      <UniqueIdentifier>{9f2ac4a2-10d4-4567-9eaf-6d4b19f051b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Presenter">
+      <UniqueIdentifier>{01741d66-10d5-4b75-a742-816ce6d57aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Utils">
+      <UniqueIdentifier>{70d65788-742b-4e0f-a4df-6ef34fdbbf37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="mainDlg.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Binder\DeltaBinder.h">
+      <Filter>Файлы заголовков\Binder</Filter>
+    </ClInclude>
+    <ClInclude Include="Binder\LambdaBinder.h">
+      <Filter>Файлы заголовков\Binder</Filter>
+    </ClInclude>
+    <ClInclude Include="State\StateList.h">
+      <Filter>Файлы заголовков\State</Filter>
+    </ClInclude>
+    <ClInclude Include="State\StateNode.h">
+      <Filter>Файлы заголовков\State</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollController.h">
+      <Filter>Файлы заголовков\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphs.h">
+      <Filter>Файлы заголовков\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Group.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Executor.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Store.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NodePresenter.h">
+      <Filter>Файлы заголовков\Presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="Presenter.h">
+      <Filter>Файлы заголовков\Presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="LambdaGroupPresenter.h">
+      <Filter>Файлы заголовков\Presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaGroupPresenter.h">
+      <Filter>Файлы заголовков\Presenter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="mainDlg.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphs.cpp">
+      <Filter>Исходные файлы\Scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollController.cpp">
+      <Filter>Исходные файлы\Scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="State\StateList.cpp">
+      <Filter>Исходные файлы\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Executor.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Store.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Binder\DeltaBinder.cpp">
+      <Filter>Исходные файлы\Binder</Filter>
+    </ClCompile>
+    <ClCompile Include="Binder\LambdaBinder.cpp">
+      <Filter>Исходные файлы\Binder</Filter>
+    </ClCompile>
+    <ClCompile Include="Presenter.cpp">
+      <Filter>Исходные файлы\Presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="NodePresenter.cpp">
+      <Filter>Исходные файлы\Presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="LambdaGroupPresenter.cpp">
+      <Filter>Исходные файлы\Presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="DeltaGroupPresenter.cpp">
+      <Filter>Исходные файлы\Presenter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="main.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\main.rc2">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\main.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\input.txt">
+      <Filter>Файлы ресурсов\Data</Filter>
+    </Text>
+    <Text Include="data\input_2.txt">
+      <Filter>Файлы ресурсов\Data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
